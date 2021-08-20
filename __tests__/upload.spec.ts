@@ -8,7 +8,7 @@ describe('Routes Upload - Test', () => {
         expect(request.statusCode).toEqual(400);
     });
 
-    it('Upload - with extname wrong', async () => {
+    it('Upload - With Extname Wrong', async () => {
         const potateTxt = Path.join(__dirname, 'assets/potate.txt');
         const request = await Request(Server)
             .post('/api/upload')
@@ -19,7 +19,7 @@ describe('Routes Upload - Test', () => {
         expect(request.statusCode).toEqual(400);
     });
 
-    it('Upload - with extname correct', async () => {
+    it('Upload - With Extname Correct', async () => {
         const potateJpg = Path.join(__dirname, 'assets/potate.jpg');
         const request = await Request(Server)
             .post('/api/upload')
