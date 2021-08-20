@@ -16,7 +16,7 @@ The project also includes the testing processes **[jest](https://jestjs.io/)** a
 
 ### **Learned**
 
-Durante a construção aprendi vários conceitos novos e boas práticas, sendo os principáis:
+During the development I learned many new concepts and best practices, these being:
 
 #### **New Concepts**
 
