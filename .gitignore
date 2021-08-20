@@ -1,0 +1,4 @@
+node_modules
+coverage
+files/upload/static/cache
+.env
